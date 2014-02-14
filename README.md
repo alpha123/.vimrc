@@ -12,5 +12,5 @@ Grab the patched Anonymous Pro font (“Anonymice Powerline”) from [Lokaltog/p
 
 Then just [download my .vimrc][2] and copy it to wherever your OS puts yours. It’s not meant to be cloned because it’s meant for you to customize. My .vimrc should just be a solid base for yours, plus some packages helpful for front-end work. Those are delete-key friendly if you don’t do web.
 
-[1] https://github.com/Lokaltog/powerline-fonts
-[2] https://raw2.github.com/alpha123/.vimrc/master/.vimrc
+[1]: https://github.com/Lokaltog/powerline-fonts
+[2]: https://raw2.github.com/alpha123/.vimrc/master/.vimrc
