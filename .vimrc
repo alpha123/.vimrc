@@ -1,7 +1,5 @@
 " General
 set nocompatible
-filetype on
-filetype off
 syntax on
 set encoding=utf-8
 set undolevels=1000
