@@ -67,7 +67,6 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-repeat'
 Plugin 'kana/vim-textobj-user'
 Plugin 'mattn/webapi-vim'
-Plugin 'Shougo/vimproc.vim'
 
 " UI
 Plugin 'bling/vim-airline'
@@ -79,18 +78,13 @@ Plugin 'altercation/vim-colors-solarized'
 
 " Editing
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'terryma/vim-multiple-cursors'
-let g:multiple_cursor_exit_from_visual_mode=0
-let g:multiple_cursor_exit_from_insert_mode=0
 Plugin 'sjl/gundo.vim'
-Plugin 'paradigm/TextObjectify'
 Plugin 'osyo-manga/vim-over'
-Plugin 'tpope/vim-abolish'
+Plugin 'paradigm/TextObjectify'
 
 " Files and directories
 Plugin 'mileszs/ack.vim'
 Plugin 'rking/ag.vim'
-Plugin 'dyng/ctrlsf.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-rooter'
@@ -99,15 +93,13 @@ Plugin 'airblade/vim-rooter'
 Plugin 'paradigm/SkyBison'
 let g:skybison_fuzz=1
 
-" Shell
-Plugin 'Shougo/vimshell.vim'
-
 " All languages
+Plugin 'tommcdo/vim-exchange'
+Plugin 'vasconcelloslf/vim-interestingwords'
+Plugin 'tpope/vim-speeddating'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'taglist.vim'
-Plugin 'tpope/vim-speeddating'
-Plugin 'tommcdo/vim-exchange'
 Plugin 'wellle/targets.vim'
 
 " Completion
@@ -120,16 +112,16 @@ Plugin 'file:///c/Users/turkc_000/.vim/vim-ycm-9e54390-windows-x64'
 Plugin 'tpope/vim-fugitive'
 
 " HTML
+Plugin 'jaxbot/browserlink.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'mohitleo9/vim-fidget'
-Plugin 'jaxbot/browserlink.vim'
 
 " Slim
 Plugin 'slim-template/vim-slim'
 
 " CSS
-Plugin 'ap/vim-css-color'
 Plugin 'Rykka/colorv.vim'
+Plugin 'ap/vim-css-color'
 Plugin 'mattn/livestyle-vim'
 
 " Stylus
@@ -142,12 +134,15 @@ Plugin 'marijnh/tern_for_vim'
 Plugin 'kchmck/vim-coffee-script'
 
 " Ruby
+Plugin 'tpope/vim-endwise'
 Plugin 'vim-ruby/vim-ruby'
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading=1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global=1
 autocmd FileType ruby,eruby let g:rubycomplete_rails=1
-Plugin 'tpope/vim-endwise'
 Plugin 'nelstrom/vim-textobj-rubyblock'
+
+" Other
+Plugin 'fmoralesc/vim-pad'
 
 call vundle#end()
 syntax enable
