@@ -138,9 +138,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global=1
 autocmd FileType ruby,eruby let g:rubycomplete_rails=1
 Plugin 'nelstrom/vim-textobj-rubyblock'
 
-" Other
-Plugin 'fmoralesc/vim-pad'
-
 call vundle#end()
 syntax enable
 filetype plugin indent on
