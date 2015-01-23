@@ -103,10 +103,7 @@ Plugin 'taglist.vim'
 Plugin 'wellle/targets.vim'
 
 " Completion
-" This is... ugly, to say the least.
-" TODO: Consider compiling YCM myself and treat it like a
-" normal bundle (might require Visual Studio).
-Plugin 'file:///c/Users/turkc_000/.vim/vim-ycm-9e54390-windows-x64'
+Plugin 'ajh17/VimCompletesMe'
 
 " Git
 Plugin 'tpope/vim-fugitive'
