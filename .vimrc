@@ -24,7 +24,7 @@ set softtabstop=4
 runtime macros/matchit.vim
 
 " Swap files
-set dir=c:/Users/turkc_000/.vim/swap
+set dir=~/.vim/swap
 
 " Keybindings
 nnoremap <Space> <Nop>
