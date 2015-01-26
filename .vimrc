@@ -108,6 +108,12 @@ Plugin 'tpope/vim-fugitive'
 
 " HTML
 Plugin 'jaxbot/browserlink.vim'
+" Browserlink maps these, let's unmap them
+nunmap <Leader>bc
+nunmap <Leader>br
+nunmap <Leader>bf
+nunmap <Leader>be
+vunmap <Leader>be
 Plugin 'mattn/emmet-vim'
 Plugin 'mohitleo9/vim-fidget'
 
