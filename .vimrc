@@ -94,6 +94,7 @@ Plugin 'paradigm/SkyBison'
 let g:skybison_fuzz=1
 
 " All languages
+Plugin 'vasconcelloslf/vim-interestingwords'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'taglist.vim'
