@@ -1,4 +1,7 @@
 " General
+if has('win32') || has('win64')
+    set rtp=$VIM/vimfiles,$VIMRUNTIME,~/.vim,~/.vim/after
+endif
 set nocompatible
 set encoding=utf-8
 set undolevels=1000
@@ -108,12 +111,6 @@ Plugin 'tpope/vim-fugitive'
 
 " HTML
 Plugin 'jaxbot/browserlink.vim'
-" Browserlink maps these, let's unmap them
-nunmap <Leader>bc
-nunmap <Leader>br
-nunmap <Leader>bf
-nunmap <Leader>be
-vunmap <Leader>be
 Plugin 'mattn/emmet-vim'
 Plugin 'mohitleo9/vim-fidget'
 
