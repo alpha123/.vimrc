@@ -39,6 +39,7 @@ nnoremap <Leader>t :CtrlPTag<CR>
 nnoremap <Leader>u :GundoToggle<CR>
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>s :OverCommandLine<CR>
+vnoremap <Leader>s :OverCommandLine<CR>
 
 " UI
 set laststatus=2
