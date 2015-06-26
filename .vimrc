@@ -101,6 +101,8 @@ let g:skybison_fuzz=1
 
 " All languages
 Plugin 'vasconcelloslf/vim-interestingwords'
+let g:interestingWordsGUIColors = ['#906352', '#ea856f', '#eeba6a', '#bb9b71', '#84988d', '#eefeef']
+let g:interestingWordsRandomiseColors = 1
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'taglist.vim'
