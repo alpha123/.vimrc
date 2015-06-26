@@ -149,12 +149,17 @@ Plugin 'kovisoft/slimv'
 let g:slimv_impl = 'clozure'
 let g:slimv_preferred = 'clozure'
 
+" Other
+" i3 window manager configuration file syntax
+Plugin 'PotatoesMaster/i3-vim-syntax'
+
 call vundle#end()
 syntax enable
 filetype plugin indent on
 
 " Filetypes
 autocmd BufNewFile,BufRead *.asd set filetype=lisp " ASDF system definitions
+autocmd BufRead *i3/config set filetype=i3 " i3wm config file
 
 " Color scheme
 colorscheme solarized
