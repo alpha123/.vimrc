@@ -79,6 +79,8 @@ Plugin 'majutsushi/tagbar'
 
 " Color schemes
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'Wutzara/vim-materialtheme'
 
 " Editing
 Plugin 'Lokaltog/vim-easymotion'
